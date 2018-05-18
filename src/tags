@@ -1,0 +1,145 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add_admin_user	lzj/sql.c	/^int Add_admin_user(char *NewAdminId,char *NewAdminPwd)$/;"	f
+Add_admin_user	sql.c	/^int Add_admin_user(char *NewAdminId,char *NewAdminPwd)$/;"	f
+Add_user_user	lzj/sql.c	/^int Add_user_user(char* NewUserId,char *NewUserPwd)$/;"	f
+Add_user_user	sql.c	/^int Add_user_user(char* NewUserId,char *NewUserPwd)$/;"	f
+CThread_worker	threadpool.h	/^} CThread_worker; $/;"	t	typeref:struct:worker
+CheckAdmin	lzj/sql.c	/^int CheckAdmin(char *AdminId,char *AdminPwd)$/;"	f
+CheckAdmin	sql.c	/^int CheckAdmin(char *AdminId,char *AdminPwd)$/;"	f
+CheckUser	lzj/sql.c	/^int CheckUser(char *userId,char *userPwd)$/;"	f
+CheckUser	sql.c	/^int CheckUser(char *userId,char *userPwd)$/;"	f
+Clie_Func	lzj/view.c	/^void Clie_Func()$/;"	f
+Clie_Func	view.c	/^void Clie_Func()$/;"	f
+CurrentClientNum	server.h	/^int CurrentClientNum = 0;$/;"	v
+DownloadF	client.c	/^void* DownloadF(void *filename)$/;"	f
+DownloadF	lzj/client.c	/^void* DownloadF(void *filename)$/;"	f
+DownloadF	lzj/tmp.c	/^void* DownloadF(void *filename)$/;"	f
+DownloadF	tmp.c	/^void* DownloadF(void *filename)$/;"	f
+FilePackage	client.h	/^struct FilePackage$/;"	s
+FilePackage	lzj/client.h	/^struct FilePackage$/;"	s
+FilePackage	server.h	/^struct FilePackage$/;"	s
+InitMaxClientNum	server.c	/^int InitMaxClientNum()$/;"	f
+Log	lzj/view.c	/^void Log()$/;"	f
+Log	view.c	/^void Log()$/;"	f
+MAX_THR_NUM	server.h	32;"	d
+SERV_IP	client.h	31;"	d
+SERV_IP	lzj/client.h	31;"	d
+Serv_Config	lzj/view.c	/^void Serv_Config()$/;"	f
+Serv_Config	view.c	/^void Serv_Config()$/;"	f
+Serv_LoginSuc	lzj/view.c	/^void Serv_LoginSuc()$/;"	f
+Serv_LoginSuc	view.c	/^void Serv_LoginSuc()$/;"	f
+Show	client.c	/^void Show(int sockfd,char temp[100])$/;"	f
+Show	lzj/client.c	/^void Show(int sockfd,char temp[100])$/;"	f
+Show	lzj/tmp.c	/^void Show(int sockfd,char temp[100])$/;"	f
+Show	tmp.c	/^void Show(int sockfd,char temp[100])$/;"	f
+UpdateF	client.c	/^void *UpdateF(void *filename)$/;"	f
+UpdateF	lzj/client.c	/^void *UpdateF(void *filename)$/;"	f
+UpdateF	lzj/tmp.c	/^void *UpdateF(void *filename)$/;"	f
+UpdateF	tmp.c	/^void *UpdateF(void *filename)$/;"	f
+_CLIENT_H	client.h	9;"	d
+_CLIENT_H	lzj/client.h	9;"	d
+_SERVER_H	server.h	9;"	d
+_SQL_H	lzj/sql.h	9;"	d
+_SQL_H	sql.h	9;"	d
+_THREADPOOL_H	threadpool.h	9;"	d
+_VIEW_H	lzj/view.h	9;"	d
+_VIEW_H	view.h	9;"	d
+ack	client.h	/^	int  ack;           \/\/ 确认号$/;"	m	struct:FilePackage
+ack	lzj/client.h	/^	int  ack;           \/\/ 确认号$/;"	m	struct:FilePackage
+ack	server.h	/^	int  ack;$/;"	m	struct:FilePackage
+arg	threadpool.h	/^    void *arg;\/*回调函数的参数*\/ $/;"	m	struct:worker
+buf	client.h	/^	char buf[1024];     \/\/ 传输的数据$/;"	m	struct:FilePackage
+buf	lzj/client.h	/^	char buf[1024];     \/\/ 传输的数据$/;"	m	struct:FilePackage
+buf	server.h	/^	char buf[1024];  $/;"	m	struct:FilePackage
+clientIP	server.h	/^char clientIP[15];$/;"	v
+cmd	client.h	/^	char cmd;           \/\/ 请求类型$/;"	m	struct:FilePackage
+cmd	lzj/client.h	/^	char cmd;           \/\/ 请求类型$/;"	m	struct:FilePackage
+cmd	server.h	/^	char cmd;$/;"	m	struct:FilePackage
+connectto	client.c	/^int connectto(int argc,char *argv[])$/;"	f
+connectto	lzj/client.c	/^int connectto(int argc,char *argv[])$/;"	f
+connectto	lzj/tmp.c	/^int connectto(int argc,char *argv[])$/;"	f
+connectto	tmp.c	/^int connectto(int argc,char *argv[])$/;"	f
+cur_queue_size	threadpool.h	/^    int cur_queue_size; $/;"	m	struct:__anon1
+filename	client.h	/^	char filename[125]; \/\/ 文件名$/;"	m	struct:FilePackage
+filename	lzj/client.h	/^	char filename[125]; \/\/ 文件名$/;"	m	struct:FilePackage
+filename	server.h	/^	char filename[125];$/;"	m	struct:FilePackage
+filesize	client.h	/^	int  filesize;      \/\/ 文件大小$/;"	m	struct:FilePackage
+filesize	lzj/client.h	/^	int  filesize;      \/\/ 文件大小$/;"	m	struct:FilePackage
+filesize	server.h	/^	int  filesize;$/;"	m	struct:FilePackage
+getCurrentTime	server.c	/^char *getCurrentTime()$/;"	f
+getlist	server.c	/^void getlist(char *username,char *filelist)$/;"	f
+id	server.h	/^pthread_t id;$/;"	v
+isExit	server.h	/^int isExit = 0; $/;"	v
+isRun	server.h	/^int isRun = 0;$/;"	v
+login	client.c	/^int login(int sockfd)$/;"	f
+login	lzj/client.c	/^int login(int sockfd)$/;"	f
+login	lzj/tmp.c	/^int login(int sockfd)$/;"	f
+login	tmp.c	/^int login(int sockfd)$/;"	f
+main	client.c	/^int main(int argc,char *argv[])$/;"	f
+main	debug.c	/^int main(void)$/;"	f
+main	goto.c	/^int main()$/;"	f
+main	lzj/client.c	/^int main(int argc,char *argv[])$/;"	f
+main	lzj/tmp.c	/^int main(int argc,char *argv[])$/;"	f
+main	main.c	/^int main(void)$/;"	f
+main	server.c	/^int main(int argc,char *argv[])$/;"	f
+main	test_sql.c	/^int main(void)$/;"	f
+main	threadpool_test.c	/^int main(void)$/;"	f
+main	tmp.c	/^int main(int argc,char *argv[])$/;"	f
+main	tmp/main.c	/^int main(void)$/;"	f
+mainHandler	client.c	/^void mainHandler(int sockfd)$/;"	f
+mainHandler	lzj/client.c	/^void mainHandler(int sockfd)$/;"	f
+mainHandler	lzj/tmp.c	/^void mainHandler(int sockfd)$/;"	f
+mainHandler	tmp.c	/^void mainHandler(int sockfd)$/;"	f
+mainMenu	server.c	/^void mainMenu(void)$/;"	f
+mainThread	server.c	/^void mainThread(void)$/;"	f
+maxClientNum	server.h	/^int maxClientNum = 0;$/;"	v
+max_thread_num	threadpool.h	/^    int max_thread_num; $/;"	m	struct:__anon1
+mode	client.h	/^    mode_t mode;        \/\/ 文件的权限$/;"	m	struct:FilePackage
+mode	lzj/client.h	/^    mode_t mode;        \/\/ 文件的权限$/;"	m	struct:FilePackage
+mode	server.h	/^    mode_t mode;        \/\/ 文件的权限$/;"	m	struct:FilePackage
+myprocess	threadpool_test.c	/^void *myprocess(void *arg)$/;"	f
+next	threadpool.h	/^    struct worker *next; $/;"	m	struct:worker	typeref:struct:worker::worker
+pack	client.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+pack	lzj/client.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+pack	lzj/tmp.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+pack	server.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+pack	tmp.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+pool	server.h	/^threadpool_t *pool = NULL;$/;"	v
+portNumber	server.h	/^int portNumber = 3333;$/;"	v
+process	server.c	/^void *process(void *arg) $/;"	f
+process	threadpool.h	/^    void *(*process) (void *arg); $/;"	m	struct:worker
+queue_head	threadpool.h	/^    CThread_worker *queue_head; $/;"	m	struct:__anon1
+queue_lock	threadpool.h	/^    pthread_mutex_t queue_lock; $/;"	m	struct:__anon1
+queue_ready	threadpool.h	/^    pthread_cond_t queue_ready; $/;"	m	struct:__anon1
+receivePipBroken	server.c	/^void receivePipBroken(int signo)$/;"	f
+recvdata	client.c	/^int recvdata(int sockfd,struct FilePackage *data)$/;"	f
+recvdata	lzj/client.c	/^int recvdata(int sockfd,struct FilePackage *data)$/;"	f
+recvdata	lzj/tmp.c	/^int recvdata(int sockfd,struct FilePackage *data)$/;"	f
+recvdata	tmp.c	/^int recvdata(int sockfd,struct FilePackage *data)$/;"	f
+senddata	client.c	/^int senddata(int sockfd,struct FilePackage data)$/;"	f
+senddata	lzj/client.c	/^int senddata(int sockfd,struct FilePackage data)$/;"	f
+senddata	lzj/tmp.c	/^int senddata(int sockfd,struct FilePackage data)$/;"	f
+senddata	tmp.c	/^int senddata(int sockfd,struct FilePackage data)$/;"	f
+serv_ip	client.h	/^char serv_ip[SERV_IP];$/;"	v
+serv_ip	lzj/client.h	/^char serv_ip[SERV_IP];$/;"	v
+shutdown	threadpool.h	/^    int shutdown; $/;"	m	struct:__anon1
+sockfd	server.h	/^int sockfd;$/;"	v
+tempsockfd	server.h	/^int tempsockfd;$/;"	v
+tempusername	client.h	/^char tempusername[20] = "";$/;"	v
+tempusername	lzj/client.h	/^char tempusername[20] = "";$/;"	v
+threadId	threadpool.h	/^    pthread_t *threadId;$/;"	m	struct:__anon1
+thread_routine	threadpool.c	/^void *thread_routine(void *arg)$/;"	f
+threadpool_add_task	threadpool.c	/^int threadpool_add_task(threadpool_t *pool,void *(*process)(void *arg),void *arg)$/;"	f
+threadpool_create	threadpool.c	/^threadpool_t *threadpool_create(int _max_thread_num)$/;"	f
+threadpool_destroy	threadpool.c	/^int threadpool_destroy(threadpool_t *pool)$/;"	f
+threadpool_t	threadpool.h	/^}threadpool_t; $/;"	t	typeref:struct:__anon1
+unpack	server.c	/^struct FilePackage unpack(int sockfd,struct FilePackage tpack)$/;"	f
+username	client.h	/^	char username[50];  \/\/ 用户名$/;"	m	struct:FilePackage
+username	lzj/client.h	/^	char username[50];  \/\/ 用户名$/;"	m	struct:FilePackage
+username	server.h	/^	char username[50];$/;"	m	struct:FilePackage
+worker	threadpool.h	/^typedef struct worker $/;"	s

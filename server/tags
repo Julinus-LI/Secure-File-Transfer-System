@@ -1,0 +1,68 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add_admin_user	sql.c	/^int Add_admin_user(char *NewAdminId,char *NewAdminPwd)$/;"	f
+Add_user_user	sql.c	/^int Add_user_user(char* NewUserId,char *NewUserPwd)$/;"	f
+BIN	Makefile	/^BIN=.\/server$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -g -lpthread -lmysqlclient$/;"	m
+CThread_worker	threadpool.h	/^} CThread_worker; $/;"	t	typeref:struct:worker
+CheckAdmin	sql.c	/^int CheckAdmin(char *AdminId,char *AdminPwd)$/;"	f
+CheckUser	sql.c	/^int CheckUser(char *userId,char *userPwd)$/;"	f
+Clie_Func	view.c	/^void Clie_Func()$/;"	f
+CurrentClientNum	server.h	/^int CurrentClientNum = 0;$/;"	v
+FilePackage	server.h	/^struct FilePackage$/;"	s
+InitMaxClientNum	server.c	/^int InitMaxClientNum()$/;"	f
+Log	view.c	/^void Log()$/;"	f
+MAX_THR_NUM	server.h	32;"	d
+OBJ	Makefile	/^OBJ = server.o sql.o view.o threadpool.o$/;"	m
+Serv_Config	view.c	/^void Serv_Config()$/;"	f
+Serv_LoginSuc	view.c	/^void Serv_LoginSuc()$/;"	f
+_SERVER_H	server.h	9;"	d
+_SQL_H	sql.h	9;"	d
+_THREADPOOL_H	threadpool.h	9;"	d
+_VIEW_H	view.h	9;"	d
+ack	server.h	/^	int  ack;$/;"	m	struct:FilePackage
+arg	threadpool.h	/^    void *arg;\/*回调函数的参数*\/ $/;"	m	struct:worker
+buf	server.h	/^	char buf[1024];  $/;"	m	struct:FilePackage
+clientIP	server.h	/^char clientIP[15];$/;"	v
+cmd	server.h	/^	char cmd;$/;"	m	struct:FilePackage
+cur_queue_size	threadpool.h	/^    int cur_queue_size; $/;"	m	struct:__anon1
+filename	server.h	/^	char filename[125];$/;"	m	struct:FilePackage
+filesize	server.h	/^	int  filesize;$/;"	m	struct:FilePackage
+getCurrentTime	server.c	/^char *getCurrentTime()$/;"	f
+getlist	server.c	/^void getlist(char *username,char *filelist)$/;"	f
+id	server.h	/^pthread_t id;$/;"	v
+isExit	server.h	/^int isExit = 0; $/;"	v
+isRun	server.h	/^int isRun = 0;$/;"	v
+main	server.c	/^int main(int argc,char *argv[])$/;"	f
+mainMenu	server.c	/^void mainMenu(void)$/;"	f
+mainThread	server.c	/^void mainThread(void)$/;"	f
+maxClientNum	server.h	/^int maxClientNum = 0;$/;"	v
+max_thread_num	threadpool.h	/^    int max_thread_num; $/;"	m	struct:__anon1
+mode	server.h	/^    mode_t mode;        \/\/ 文件的权限$/;"	m	struct:FilePackage
+next	threadpool.h	/^    struct worker *next; $/;"	m	struct:worker	typeref:struct:worker::worker
+pack	server.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+pool	server.h	/^threadpool_t *pool = NULL;$/;"	v
+portNumber	server.h	/^int portNumber = 3333;$/;"	v
+process	server.c	/^void *process(void *arg) $/;"	f
+process	threadpool.h	/^    void *(*process) (void *arg); $/;"	m	struct:worker
+queue_head	threadpool.h	/^    CThread_worker *queue_head; $/;"	m	struct:__anon1
+queue_lock	threadpool.h	/^    pthread_mutex_t queue_lock; $/;"	m	struct:__anon1
+queue_ready	threadpool.h	/^    pthread_cond_t queue_ready; $/;"	m	struct:__anon1
+receivePipBroken	server.c	/^void receivePipBroken(int signo)$/;"	f
+shutdown	threadpool.h	/^    int shutdown; $/;"	m	struct:__anon1
+sockfd	server.h	/^int sockfd;$/;"	v
+tempsockfd	server.h	/^int tempsockfd;$/;"	v
+threadId	threadpool.h	/^    pthread_t *threadId;$/;"	m	struct:__anon1
+thread_routine	threadpool.c	/^void *thread_routine(void *arg)$/;"	f
+threadpool_add_task	threadpool.c	/^int threadpool_add_task(threadpool_t *pool,void *(*process)(void *arg),void *arg)$/;"	f
+threadpool_create	threadpool.c	/^threadpool_t *threadpool_create(int _max_thread_num)$/;"	f
+threadpool_destroy	threadpool.c	/^int threadpool_destroy(threadpool_t *pool)$/;"	f
+threadpool_t	threadpool.h	/^}threadpool_t; $/;"	t	typeref:struct:__anon1
+unpack	server.c	/^struct FilePackage unpack(int sockfd,struct FilePackage tpack)$/;"	f
+username	server.h	/^	char username[50];$/;"	m	struct:FilePackage
+worker	threadpool.h	/^typedef struct worker $/;"	s
