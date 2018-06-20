@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN	Makefile	/^BIN=.\/client$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -g -lpthread$/;"	m
+Clie_Func	view.c	/^void Clie_Func()$/;"	f
+DownloadF	client.c	/^void* DownloadF(void *filename)$/;"	f
+FilePackage	client.h	/^struct FilePackage$/;"	s
+Log	view.c	/^void Log()$/;"	f
+OBJ	Makefile	/^OBJ = client.o view.o$/;"	m
+SERV_IP	client.h	31;"	d
+Serv_Config	view.c	/^void Serv_Config()$/;"	f
+Serv_LoginSuc	view.c	/^void Serv_LoginSuc()$/;"	f
+Show	client.c	/^void Show(int sockfd,char temp[100])$/;"	f
+UpdateF	client.c	/^void *UpdateF(void *filename)$/;"	f
+_CLIENT_H	client.h	9;"	d
+_VIEW_H	view.h	9;"	d
+ack	client.h	/^	int  ack;           \/\/ 确认号$/;"	m	struct:FilePackage
+buf	client.h	/^	char buf[1024];     \/\/ 传输的数据$/;"	m	struct:FilePackage
+cmd	client.h	/^	char cmd;           \/\/ 请求类型$/;"	m	struct:FilePackage
+connectto	client.c	/^int connectto(int argc,char *argv[])$/;"	f
+filename	client.h	/^	char filename[125]; \/\/ 文件名$/;"	m	struct:FilePackage
+filesize	client.h	/^	int  filesize;      \/\/ 文件大小$/;"	m	struct:FilePackage
+login	client.c	/^int login(int sockfd)$/;"	f
+main	client.c	/^int main(int argc,char *argv[])$/;"	f
+mainHandler	client.c	/^void mainHandler(int sockfd)$/;"	f
+mode	client.h	/^    mode_t mode;        \/\/ 文件的权限$/;"	m	struct:FilePackage
+pack	client.c	/^struct FilePackage pack(char tCmd, char* tBuf, char* tFilename, int tFilesize, int tAck,int count,char *uname)$/;"	f
+recvdata	client.c	/^int recvdata(int sockfd,struct FilePackage *data)$/;"	f
+senddata	client.c	/^int senddata(int sockfd,struct FilePackage data)$/;"	f
+serv_ip	client.h	/^char serv_ip[SERV_IP];$/;"	v
+tempusername	client.h	/^char tempusername[20] = "";$/;"	v
+username	client.h	/^	char username[50];  \/\/ 用户名$/;"	m	struct:FilePackage
